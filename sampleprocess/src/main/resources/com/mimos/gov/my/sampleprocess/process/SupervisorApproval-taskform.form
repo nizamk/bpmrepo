@@ -3,92 +3,31 @@
 <property name="name" value="SupervisorApproval-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="4" name="approvalDataObject_approverName" type="InputText" id="522897354">
+<field position="1" name=":decorator_0" type="HTMLLabel" id="2105733541">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;approverName (approvalDataObject)quot;"/>
 <property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;div style=&quot;background:#eee;border:1px solid #ccc;padding:5px 10px;&quot;&gt;&lt;code&gt;Approval Name&lt;/code&gt;&lt;/div&gt;
+quot;quot;dequot;,quot;&lt;div style=&quot;background:#eee;border:1px solid #ccc;padding:5px 10px;&quot;&gt;&lt;code&gt;Approval Name&lt;/code&gt;&lt;/div&gt;
+quot;quot;enquot;,quot;&lt;div style=&quot;background:#eee;border:1px solid #ccc;padding:5px 10px;&quot;&gt;&lt;code&gt;Approval Name&lt;/code&gt;&lt;/div&gt;
+quot;quot;esquot;,quot;&lt;div style=&quot;background:#eee;border:1px solid #ccc;padding:5px 10px;&quot;&gt;&lt;code&gt;Approval Name&lt;/code&gt;&lt;/div&gt;
+quot;quot;frquot;,quot;&lt;div style=&quot;background:#eee;border:1px solid #ccc;padding:5px 10px;&quot;&gt;&lt;code&gt;Approval Name&lt;/code&gt;&lt;/div&gt;
+quot;quot;jaquot;,quot;&lt;div style=&quot;background:#eee;border:1px solid #ccc;padding:5px 10px;&quot;&gt;&lt;code&gt;Approval Name&lt;/code&gt;&lt;/div&gt;
+quot;quot;ptquot;,quot;&lt;div style=&quot;background:#eee;border:1px solid #ccc;padding:5px 10px;&quot;&gt;&lt;code&gt;Approval Name&lt;/code&gt;&lt;/div&gt;
+quot;quot;zhquot;,quot;&lt;div style=&quot;background:#eee;border:1px solid #ccc;padding:5px 10px;&quot;&gt;&lt;code&gt;Approval Name&lt;/code&gt;&lt;/div&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="0" name="approvalDataObject_approverName" type="InputText" id="1805264026">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;approverName (approvalDataObject)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="true"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
 <property name="inputBinding" value="inApprovalDataObject/approverName"/>
 <property name="outputBinding" value="outApprovalDataObject/approverName"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="7" name="approvalDataObject_requesterDept" type="InputText" id="520328576">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;requesterDept (approvalDataObject)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="inApprovalDataObject/requesterDept"/>
-<property name="outputBinding" value="outApprovalDataObject/requesterDept"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="9" name="approvalDataObject_requesterName" type="InputText" id="377582914">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;requesterName (approvalDataObject)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="inApprovalDataObject/requesterName"/>
-<property name="outputBinding" value="outApprovalDataObject/requesterName"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="6" name="approvalDataObject_rejectReason" type="InputText" id="183879">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;rejectReason (approvalDataObject)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="inApprovalDataObject/rejectReason"/>
-<property name="outputBinding" value="outApprovalDataObject/rejectReason"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="0" name="approvalDataObject_amount" type="InputTextDouble" id="447644358">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;amount (approvalDataObject)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="inApprovalDataObject/amount"/>
-<property name="outputBinding" value="outApprovalDataObject/amount"/>
-<property name="fieldClass" value="java.lang.Double"/>
-</field>
-<field position="2" name="approvalDataObject_approvalPath" type="InputText" id="1683344797">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;approvalPath (approvalDataObject)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="inApprovalDataObject/approvalPath"/>
-<property name="outputBinding" value="outApprovalDataObject/approvalPath"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="3" name="approvalDataObject_approved" type="CheckBox" id="1302247351">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;approved (approvalDataObject)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="inApprovalDataObject/approved"/>
-<property name="outputBinding" value="outApprovalDataObject/approved"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
-</field>
-<field position="5" name="approvalDataObject_approverNote" type="InputText" id="1944677011">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;approverNote (approvalDataObject)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="inApprovalDataObject/approverNote"/>
-<property name="outputBinding" value="outApprovalDataObject/approverNote"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="1" name="approvalDataObject_approvalDept" type="InputText" id="1825231873">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;approvalDept (approvalDataObject)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="inApprovalDataObject/approvalDept"/>
-<property name="outputBinding" value="outApprovalDataObject/approvalDept"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="8" name="approvalDataObject_requesterJoinLen" type="InputTextShort" id="1429619482">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;requesterJoinLen (approvalDataObject)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="inApprovalDataObject/requesterJoinLen"/>
-<property name="outputBinding" value="outApprovalDataObject/requesterJoinLen"/>
-<property name="fieldClass" value="java.lang.Short"/>
-</field>
-<field position="10" name="approvalDataObject_requesterNote" type="InputText" id="976789670">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;requesterNote (approvalDataObject)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="inApprovalDataObject/requesterNote"/>
-<property name="outputBinding" value="outApprovalDataObject/requesterNote"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="inApprovalDataObject" name="#E9E371" type="dataModelerEntry" outId="outApprovalDataObject" value="com.mimos.gov.my.sampleprocess.datamodel.ApprovalDataObject" id="approvalDataObject"/>
