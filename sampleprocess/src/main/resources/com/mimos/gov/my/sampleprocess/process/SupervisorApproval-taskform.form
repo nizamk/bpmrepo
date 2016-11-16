@@ -12,6 +12,7 @@
 <property name="formula" value="inApprovalDataObject/requesterName"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
+<property name="defaultValueFormula" value="inApprovalDataObject/requesterName"/>
 <property name="inputBinding" value="inApprovalDataObject/requesterName"/>
 <property name="outputBinding" value="outApprovalDataObject/requesterName"/>
 <property name="fieldClass" value="java.lang.String"/>
