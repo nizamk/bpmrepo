@@ -9,8 +9,38 @@ public class CheckEmployeeStatus implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
+   private java.lang.String employeeName;
+   private java.lang.String employeeId;
+
    public CheckEmployeeStatus()
    {
+   }
+
+   public java.lang.String getEmployeeName()
+   {
+      return this.employeeName;
+   }
+
+   public void setEmployeeName(java.lang.String employeeName)
+   {
+      this.employeeName = employeeName;
+   }
+
+   public java.lang.String getEmployeeId()
+   {
+      return this.employeeId;
+   }
+
+   public void setEmployeeId(java.lang.String employeeId)
+   {
+      this.employeeId = employeeId;
+   }
+
+   public CheckEmployeeStatus(java.lang.String employeeName,
+         java.lang.String employeeId)
+   {
+      this.employeeName = employeeName;
+      this.employeeId = employeeId;
    }
 
 }
