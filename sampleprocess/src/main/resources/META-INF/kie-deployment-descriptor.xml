@@ -4,7 +4,7 @@
     <audit-persistence-unit>org.jbpm.domain</audit-persistence-unit>
     <audit-mode>JPA</audit-mode>
     <persistence-mode>JPA</persistence-mode>
-    <runtime-strategy>SINGLETON</runtime-strategy>
+    <runtime-strategy>PER_PROCESS_INSTANCE</runtime-strategy>
     <marshalling-strategies/>
     <event-listeners/>
     <task-event-listeners/>
@@ -12,9 +12,9 @@
     <work-item-handlers>
         <work-item-handler>
             <resolver>mvel</resolver>
-            <identifier>new org.jbpm.process.workitem.bpmn2.ServiceTaskHandler(ksession, classLoader)</identifier>
+            <identifier>new org.jbpm.process.workitem.webservice.WebServiceWorkItemHandler(ksession, classLoader)</identifier>
             <parameters/>
-            <name>Service Task</name>
+            <name>WebService</name>
         </work-item-handler>
         <work-item-handler>
             <resolver>mvel</resolver>
@@ -24,9 +24,9 @@
         </work-item-handler>
         <work-item-handler>
             <resolver>mvel</resolver>
-            <identifier>new org.jbpm.process.workitem.webservice.WebServiceWorkItemHandler(ksession, classLoader)</identifier>
+            <identifier>new org.jbpm.process.workitem.bpmn2.ServiceTaskHandler(ksession, classLoader)</identifier>
             <parameters/>
-            <name>WebService</name>
+            <name>Service Task</name>
         </work-item-handler>
         <work-item-handler>
             <resolver>mvel</resolver>
